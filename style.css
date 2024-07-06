@@ -1,0 +1,37 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+#wrapper {
+    display: flex;
+    align-items: stretch;
+}
+#wwrapper {
+    min-width: 250px;
+    max-width: 250px;
+    background-color: #343a40;
+    color: white;
+}
+#wwrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+#wwrapper .list-group {
+    width: 15rem;
+}
+#page-content-wrapper {
+    flex: 1;
+    padding: 20px;
+}
+.list-group-item {
+    background-color: #343a40;
+    color: white;
+}
+.list-group-item:hover {
+    background-color: #495057;
+}
+.navbar {
+    padding: 0.5rem 1rem;
+}
+.navbar-brand {
+    margin-right: 20px;
+}
